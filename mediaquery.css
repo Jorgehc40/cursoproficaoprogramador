@@ -6,15 +6,26 @@
 }
 
 .minhadivpai {
-    width: 1000px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
     background-color: black;
     
 }
 
-.minhadivfilho {
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    border: 2px solid red;
+@media(min-width: 480px){
+    .minhadivpai {
+        background-color: red;
+    }
+}
+
+@media(min-width: 768px){
+    .minhadivpai {
+        background-color: yellow;
+    }
+}
+
+@media(min-width: 1280px){
+    .minhadivpai {
+        background-color: green;
+    }
 }
