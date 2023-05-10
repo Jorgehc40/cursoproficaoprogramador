@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.minhadiv {
+    width: 700px;
+    height: 700px;
+    background-color: black;
+    padding: 10px;
+    transition: 1s;
+
+}
+
+.filhodiv {
+
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 10px;
+    border: 2px solid white; 
+    /* border = adiciona uma borda ao elemento*/
+    border-radius: 10px;
+    /* border-radius = arredonda as pontas*/
+    /* position: fixed = fixa o elemento na página*/
+    /* position: absolute = fixa o elemento na página*/
+    /* top = distância do elemento do topo da página*/
+    /* right = distância do elemento a direita da página*/
+    /* botton = distância do elemento a parte de baixo da página*/
+}
+/*Pseudo classes e Pseudo elementos:
+Pseudo classes
+
+hover = faz com que mude o elemento ao passar o mouse.
+transition: 1s; = faz a transição do hover lentamente conforme indicado em segundos.
+
+Pseudo Elementos
+
+display: inline; = Deixa os elementos um ao lado do outro e não se consegue definir altura e largura. 
+display: inline-block; = é igual ao inline mas consegue se definir uma altura e uma largura.
+display: block; = coloca os elementos um abaixo do outro colocando uma quebra de linha.
+
+*/
+
+.minhadiv:hover{
+    width: 1500px;
+    height: 1500px;
+    background-color: red;
+
+}
+
+
+
+

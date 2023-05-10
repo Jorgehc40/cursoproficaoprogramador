@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+.minhadivpai {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    
+}
+
+.minhadivfilho {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid red;
+
+}
+
+/*
+    display: grid; (NÃO ACONTECE NADA PROQUE É O PADRÃO)
+
+    GRID-TEMPLATE-COLUMNS; (COM ELE VOCÊ DEFINI EM QUANTAS COLUNAS QUER SEPARAR OS ELEMENTOS FILHOS. MEDIDA = 1FR (1fr, 1fr, 1fr ou 3, 1fr), OU DIVIDAS POR PORCENTAGEM DO ESPAÇO DO TAMANHO DA DIV PAI)
+    
+    COLUMN-GAP; 10PX; (SERÁ CRIADO UM ESPAÇAMENTO ENTRE OS ELEMENTOS FILHOS)
+    ROW-GAP: 10PX; (SERÁ CRIADO UM ESPAÇAMENTO ENTRE AS LINHAS DOS ELEMENTOS FILHOS, PODE SER INSERIDO EM BAIXO, JUNTO COM O COLUMN-GAP)
+
+*/
